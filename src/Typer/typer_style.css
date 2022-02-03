@@ -1,0 +1,13 @@
+.blinking-cursor {
+  position: relative;
+  left: 2px;
+  top: 0;
+  opacity: 1;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
